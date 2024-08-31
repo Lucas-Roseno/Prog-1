@@ -1,0 +1,506 @@
+2 2
+R R
+H Z
+6 6 
+R R R R R R  
+R       R R  
+H   R       R
+R   R R R   R
+R       R Z R
+R R R R R R  
+7 7 
+R R R R R R R
+R         R R
+H   R       R
+R R R   R   R
+R       R Z R
+R       R   R
+R R R R R R R
+8 8 
+R R R R R R R R
+R           R R
+H   R     R   R
+R   R R   R R R
+R       R     R
+R       R Z   R
+R       R     R
+R R R R R R R R
+9 9 
+R R R R R R R R R
+R         R     R
+H   R   R       R
+R   R       R R R
+R   R R   R     R
+R       R Z   R  
+R   R       R   R
+R       R     R  
+R R R R R R R R R
+10 10 
+R R R R R R R R R R
+R           R   R  
+H   R     R     R  
+R   R R   R R   R  
+R   R   R       R  
+R       R Z R   R  
+R       R   R   R  
+R   R       R   R  
+R   R       R R R  
+R R R R R R R R R R
+11 11
+R R R R R R R R R R R
+R         R     R R R
+H   R   R       R R R   
+R   R R   R   R   R R
+R       R R     R R R
+R   R       R Z R R R
+R       R   R   R R R
+R   R       R   R R R
+R   R R   R R   R R R
+R       R     R R R R
+R R R R R R R R R R R
+12 12 
+R R R R R R R R R R R R
+R       R   R     R R R
+H   R   R     R   R R R
+R   R R   R   R   R R R
+R   R     R   R R R R R
+R       R R     R R R R
+R       R   R   R Z   R
+R   R   R   R   R R   R
+R       R     R       R
+R   R       R R   R R R
+R   R   R     R R R R R
+R R R R R R R R R R R R
+13 13
+R R R R R R R R R R R R R
+R       R       R   R
+H   R   R R   R   R
+R   R   R   R R   R
+R       R R     R
+R   R       R Z R
+R   R R   R     R
+R       R   R   R
+R   R   R R   R   R
+R       R     R   R
+R   R       R
+R R R R R R R R R R R R
+14 14
+R R R R R R R R R R R R R R
+R       R   R     R   R
+H       R R R   R   R
+R R R   R       R R
+R   R       R   R   R
+R       R   R   R
+R   R R   R R     R Z
+R       R   R R R   R
+R R R       R       R
+R       R   R   R
+R   R R       R R   R
+R   R   R R   R
+R R R R R R R R R R R R R
+15 15
+R R R R R R R R R R R R R R R
+R       R     R   R
+H   R       R R R   R
+R R R     R   R   R
+R       R   R   R R
+R   R   R R     R Z
+R   R       R   R
+R       R   R R   R
+R R R   R     R
+R       R     R R   R
+R R     R   R
+R   R   R R       R
+R       R   R   R R
+R R R R R R R R R R R R R
+16 16
+R R R R R R R R R R R R R R R R
+R       R       R   R
+H   R   R R   R   R
+R   R   R   R R     R
+R       R R     R R
+R   R R     R   R Z
+R   R       R R   R
+R   R   R   R       R
+R       R R   R     R
+R R     R     R   R
+R   R R   R R     R
+R       R R   R   R
+R R   R   R R       R
+R       R     R R   R
+R R R R R R R R R R R R R
+17 17 
+R R R R R R R R R R R R R R R R R
+R     R   R       R   R
+H   R R   R     R R   R
+R   R   R       R R   R
+R       R   R R     R
+R   R   R R     R Z
+R   R       R R R   R
+R       R   R     R
+R R     R   R   R R
+R   R R   R R     R
+R       R   R     R
+R       R R   R   R
+R   R   R       R R
+R       R   R   R
+R R R R R R R R R R R R R R
+18 18 
+R R R R R R R R R R R R R R R R R R
+R   R   R     R   R   R
+H   R R   R   R R   R
+R R   R   R   R     R R
+R       R R R     R   R
+R   R     R   R     R Z
+R   R   R   R R   R
+R R   R       R   R
+R       R   R   R R
+R   R   R     R   R
+R       R   R   R
+R   R   R R R     R
+R       R     R R   R
+R R R       R   R
+R   R R   R   R
+R R R R R R R R R R R R R R R
+19 19 
+R R R R R R R R R R R R R R R R R R R
+R   R   R   R       R   R
+H   R   R R R     R   R
+R R     R   R R   R
+R       R R       R   R
+R   R   R   R R     R Z
+R       R   R   R   R
+R   R   R   R     R R
+R   R R       R     R
+R       R   R   R   R
+R R   R R   R       R
+R       R     R   R
+R   R R   R R       R
+R       R     R   R
+R R R R R R R R R R R R R R R
+20 20 
+R R R R R R R R R R R R R R R R R R R R
+R   R   R   R   R   R       R   R
+H   R       R     R R     R   R
+R R   R   R   R R       R R
+R       R       R R   R   R   R
+R   R   R   R     R   R R   R Z
+R       R   R   R R     R   R
+R R R   R     R   R   R   R
+R       R       R   R   R
+R   R   R   R     R R   R   R
+R   R       R     R   R R
+R       R     R   R     R R
+R R   R   R   R   R R   R   R
+R       R   R     R R   R
+R   R   R     R       R R
+R   R   R       R     R
+R       R     R   R R
+R R R R R R R R R R R R R R R R R R R
+14 14 
+R R R R R R R R R R R R R
+R                   R
+R   R R R   R R     R
+R   R   R       R   R
+R   R   R R   R   R
+R       R   R     R
+R   R R   R   R   R Z
+R       R   R     R
+R   R   R R   R
+R R   R       R
+R       R   R
+R   R   R
+R R R R R R R R R R R
+15 15 
+R R R R R R R R R R R R R R R
+R                   R
+R   R R R     R     R
+R   R   R   R   R   R
+R       R R   R   R
+R R       R R   R
+R       R       R Z
+R   R       R   R
+R R   R     R
+R   R   R   R
+R       R
+R R R R R R R R R R R
+16 16
+R R R R R R R R R R R R R R R R
+R               R     R
+R   R R   R R       R
+R   R       R   R   R
+R   R R   R R R   R
+R       R   R   R   R
+R   R       R R     Z
+R       R   R
+R R R   R   R
+R       R   R
+R       R   R R
+R       R
+R R R R R R R R R R R R R R
+21 21 
+R R R R R R R R R R R R R R R R R R R R R
+R                                     R
+H                   R                 R
+R     R         R   R               R
+R               R                   R
+R       R       R   R   R           R
+R               R                   R
+R         R R   R       R           R
+R                   R               R
+R           R     R   R R           Z
+R   R           R   R       R       R
+R               R   R           R   R
+R       R       R   R   R R       R
+R           R               R       R
+R               R R     R         R
+R                   R   R       R
+R           R           R           R
+R               R       R           R
+R                   R   R           R
+R R R R R R R R R R R R R R R R R R R R
+22 22 
+R R R R R R R R R R R R R R R R R R R R R R
+R                                       R
+H                 R                   R
+R     R     R     R   R               R
+R           R     R   R R           R
+R       R     R   R       R       R   R
+R       R       R R       R           R
+R   R       R   R   R     R           R
+R           R   R           R       Z R
+R               R       R   R       R
+R       R     R       R           R
+R           R     R       R       R
+R R   R       R     R       R   R
+R               R       R       R
+R       R       R   R   R R           R
+R       R       R       R           R
+R               R   R   R       R
+R       R           R   R         R
+R   R       R       R       R       R
+R                   R   R           R
+R R R R R R R R R R R R R R R R R R R R R R
+23 23 
+R R R R R R R R R R R R R R R R R R R R R R R
+R                                           R
+H                           R               R
+R       R         R   R       R       R     R
+R       R       R   R           R       R   R
+R   R       R       R R   R       R     R
+R           R   R   R       R       R     R
+R               R R     R       R       R
+R           R       R     R       R     Z R
+R     R       R   R       R       R       R
+R               R       R     R       R
+R         R       R   R     R   R       R
+R   R     R       R       R   R         R
+R       R         R R   R       R       R
+R       R           R       R     R       R
+R               R     R       R       R
+R       R       R   R       R   R         R
+R           R       R       R       R   R
+R               R       R       R       R
+R R R R R R R R R R R R R R R R R R R R R R R
+17 17 
+R R R R R R R R R R R R R R R R R
+R   R       R   R       R
+H   R R R   R   R   R   R
+R   R       R R   R R R
+R R   R     R   R     R
+R       R R R   R R   Z
+R R R   R     R   R
+R   R       R   R R
+R       R   R     R
+R R     R R   R R
+R       R   R
+R R   R       R
+R       R   R R
+R R R R R R R R R
+18 18 
+R R R R R R R R R R R R R R R R R R
+R               R       R
+H   R R R   R   R   R R
+R   R   R R       R R
+R       R   R   R   R
+R R   R R R     R   R
+R       R   R   R Z
+R R     R R       R
+R   R   R   R   R
+R       R R   R   R
+R       R   R R
+R R R   R   R   R
+R   R R       R
+R       R R   R
+R R R R R R R R R R R R
+19 19 
+R R R R R R R R R R R R R R R R R R R
+R       R     R R       R
+H   R R R     R     R R R
+R   R       R   R   R
+R   R   R R R     R
+R R   R       R R   Z
+R       R R   R     R
+R   R       R   R R
+R       R R R R   R
+R   R R     R   R
+R       R     R   R
+R R   R   R   R R
+R       R       R
+R   R   R     R   R
+R R R R R R R R R R R R
+20 20 
+R R R R R R R R R R R R R R R R R R R R
+R                   R     R
+H   R   R R   R   R R   R
+R   R       R     R   R
+R   R R   R       R   R
+R       R   R   R     R
+R R     R   R R R     Z
+R       R   R       R
+R   R R R       R R
+R R       R   R   R
+R       R     R R
+R   R R   R R   R
+R       R     R
+R R R R R R R R R R R R
+5 5 
+R R R R R
+R     R
+H R R   R
+R     R
+R R R R Z
+5 5 
+R R R R R
+R     R
+H R R R R
+R     R
+R R R R Z
+6 6 
+R R R R R R
+R       R
+H R R R R
+R       R
+R   R   R
+R R R R Z
+7 7 
+R R R R R R R
+R       R   R
+H R R R   R
+R       R R
+R R R R   R
+R   R   R
+R R R R Z
+8 8 
+R R R R R R R R
+R       R     R
+H R R R R R R
+R       R     R
+R   R   R   R
+R       R R   R
+R R R   R   R
+R R R R R R Z
+8 8 
+R R R R R R R R
+R       R   R
+H R R R R R R
+R       R R R
+R   R   R
+R       R   R
+R R R R   R
+R R R R R R Z
+9 9 
+R R R R R R R R R
+R       R     R
+H R R   R R R R
+R       R   R
+R R R   R   R
+R   R       R
+R       R R   R
+R   R   R   R
+R R R R R R Z
+3 5 
+R R R R R
+H     R R
+R R R R Z
+6 8 
+R R R R R R R R
+H   R R   R
+R R   R   R
+R R R   R
+R   R R R
+R R R R R Z
+7 9 
+R R R R R R R R R
+R   R R   R
+H R R R R R R
+R     R   R
+R R R R   R
+R   R R
+R R R R R R Z
+8 10 
+R R R R R R R R R R
+R   R     R   R   R
+H R R R   R R R
+R   R     R
+R       R R R
+R   R R R   R
+R R   R   R R
+R R R R R R Z
+20 23 
+R R R R R R R R R R R R R R R R R R R R R R R
+R       R   R       R   R   R   R       R   R
+H   R R   R   R R R R   R R   R   R       R
+R   R       R   R     R   R   R R   R   R R
+R R   R R   R R   R R   R     R     R   R
+R   R       R R R   R   R R   R R   R   R R
+R   R R   R       R R     R   R   R   R
+R       R   R R R   R   R   R R R R   R
+R   R     R   R       R   R   R   R R R   R
+R   R   R R   R   R   R R R     R R R R   R
+R   R R       R   R   R     R   R   R   R
+R   R       R   R   R R R   R     R   R   R
+R R R   R   R       R   R   R R R   R R R
+R       R   R R   R   R   R   R   R   R R
+R R R   R   R   R R   R R     R   R R R   R
+R   R R   R   R   R R R   R   R   R R   R
+R       R R R R R   R   R R R   R   R   R R
+R R R R R R R   R R R R R R R R R   R   Z
+20 23 
+R R R R R R R R R R R R R R R R R R R R R R R
+R   R   R R   R       R   R R R   R       R
+H R R R R   R R   R   R   R R   R R   R R   R
+R       R   R   R   R   R   R   R   R   R R
+R R   R R R   R   R R R   R R   R R   R
+R       R   R   R     R   R   R   R   R   R
+R   R   R R R R R   R R   R   R R R   R   R
+R R   R R   R R R   R R R R   R R R   R   R
+R       R R   R R R   R   R R   R R   R   R
+R   R     R   R   R R R   R   R   R R   R
+R R R   R R   R   R R   R R   R   R   R
+R   R   R R   R   R   R   R R R R   R
+R       R   R R   R   R   R R   R
+R R R   R   R R   R   R   R R   R R
+R R R   R   R   R   R   R   R R R R
+R       R   R R R R   R   R   R   R
+R R R R R R R R R   R R R   R R R   Z
+20 23
+R R R R R R R R R R R R R R R R R R R R R R R
+R       R   R       R   R   R   R       R   R
+H   R R   R   R R R R   R R   R   R       R
+R   R       R   R     R   R   R R   R   R R
+R R   R R   R R   R R   R     R     R   R
+R   R       R R R   R   R R   R R   R   R R
+R   R R   R       R R     R   R   R   R
+R       R   R R R   R   R   R R R R   R
+R   R     R   R       R   R   R   R R R   R
+R   R   R R   R   R   R R R     R R R R   R
+R   R R       R   R   R     R   R   R   R
+R   R       R   R   R R R   R     R   R   R
+R R R   R   R       R   R   R R R   R R R
+R       R   R R   R   R   R   R   R   R R
+R R R   R   R   R R   R R     R   R R R   R
+R   R R   R   R   R R R   R   R   R R   R
+R       R R R R R   R   R R R   R   R   R R
+R R R R R R R   R R R R R R R R R   R   Z
+
