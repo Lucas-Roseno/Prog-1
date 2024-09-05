@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #ifndef LISTA_H
 #define LISTA_H
 
@@ -51,6 +54,7 @@ int nItens, int caixaEscolhido);
 void mostrarFila(filaClientes *fila);
 void inserirOrdFila(listCaixa *lCaixas, char *nome, long long cpf, int prioridade, 
 int nItens, int caixaEscolhido);
-void desenfileirar(listCaixa *listaCaixas, int caixaEscolhido);
+void desenfileirar(listCaixa *listaCaixas, int caixaEscolhido, int impressao);
+//impresao = -1 não imprime os clientes atendidos
 
 #endif

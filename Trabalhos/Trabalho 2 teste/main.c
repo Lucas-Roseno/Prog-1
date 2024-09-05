@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "lista.h"
 
 int main()
@@ -78,7 +75,7 @@ int main()
                 printf("Caixa: ");
                 scanf("%d", &caixa);
             }
-            desenfileirar(&listaCaixas, caixa);
+            desenfileirar(&listaCaixas, caixa, 1);
             caixa = 0;
             break;
 
@@ -96,6 +93,7 @@ int main()
             switch (opcao)
             {
             case 0:
+                printf("\nCaixa %d fechado.", numCaixa);
                 fecharCaixa(&listaCaixas, numCaixa);
                 break;
             case 1:
