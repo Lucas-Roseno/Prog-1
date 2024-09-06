@@ -76,6 +76,8 @@ void mostrarCaixas(listCaixa *listaCaixa)
         {
             printf("fechado\n");
         }
+        mostrarFila(pAux->fila);
+        
     }
 }
 
@@ -108,7 +110,7 @@ void fecharCaixa(listCaixa *listaCaixa, int numCaixa)
 
     if (pAux->estado == 0)
     {
-        printf("\nCaixa já está fechado.\n");
+        printf("\nCaixa já está fechado.\n\n");
         return;
     }
 
@@ -116,7 +118,7 @@ void fecharCaixa(listCaixa *listaCaixa, int numCaixa)
     { // fila vazia
         pAux->estado = 0;
         printf("\nCaixa %d fechado\nNenhum cliente na fila para ser rediercionado\n\n",
-        pAux->numCaixa);
+               pAux->numCaixa);
         return;
     }
 
@@ -127,14 +129,13 @@ void fecharCaixa(listCaixa *listaCaixa, int numCaixa)
     while (pCont != NULL)
     { // verificando se existe pelo menos outro caixa aberto
         if (cont == 2)
+        {
             break;
-        
+        }
         if (pCont->estado == 1)
         {
             cont++;
         }
-        
-        pAux = pCont;
         pCont = pCont->prox;
     }
 
@@ -144,27 +145,31 @@ void fecharCaixa(listCaixa *listaCaixa, int numCaixa)
         return;
     }
 
+    pAux = listaCaixa->primCaixa;
+    while (pAux != NULL)
+    {
+        if (pAux->numCaixa == caixaPFechar->numCaixa || pAux->estado == 0)
+        {
+            pAux = pAux->prox;
+        }
+        if (pAux->numCaixa != caixaPFechar->numCaixa && pAux->estado == 1)
+        {
+            break;
+        }
+    }
+
     cliente *realocado = caixaPFechar->fila->primCliente;
-    cliente *ultimoRealocado = NULL;
     while (realocado != NULL)
     {
         inserirOrdFila(listaCaixa, realocado->nome, realocado->cpf, realocado->prioridade,
                        realocado->nitens, pAux->numCaixa);
-        desenfileirar(listaCaixa, numCaixa, 0);
-        
-        ultimoRealocado = realocado;
         realocado = realocado->prox;
+        desenfileirar(listaCaixa, numCaixa, -1);
     }
-
-    if (ultimoRealocado != NULL)
-    {
-        ultimoRealocado->prox = NULL;
-    }
-    
 
     caixaPFechar->estado = 0;
     caixaPFechar->fila->primCliente = NULL;
-
+    printf("\nCaixa %d fechado", numCaixa);
     mostrarUmCaixa(listaCaixa, pAux->numCaixa);
 }
 
@@ -179,12 +184,11 @@ void mostrarUmCaixa(listCaixa *listaCaixa, int caixaEscolhido)
     {
         printf("\nCaixa %d fechado!\n\n", pAux->numCaixa);
         return;
-    }else
+    }
+    else
     {
         printf("\nCaixa %d aberto, fila: \n", pAux->numCaixa);
     }
 
     mostrarFila(pAux->fila);
 }
-
-

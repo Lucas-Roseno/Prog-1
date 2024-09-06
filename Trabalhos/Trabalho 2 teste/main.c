@@ -31,7 +31,7 @@ int main()
         printf("2 - Atender um cliente.\n");
         printf("3 - Abrir ou fechar um caixa.\n");
         printf("4 - Imprimir a lista de espera.\n");
-        printf("5 - Imprimir o status do caixa\n");
+        printf("5 - Imprimir o status dos caixas\n");
         printf("Opção: ");
         scanf("%d", &opcao);
         getchar();
@@ -93,7 +93,6 @@ int main()
             switch (opcao)
             {
             case 0:
-                printf("\nCaixa %d fechado.", numCaixa);
                 fecharCaixa(&listaCaixas, numCaixa);
                 break;
             case 1:
@@ -105,13 +104,7 @@ int main()
             }
             break;
         case 5:
-            while (caixa <= 0 || caixa > quanCaixas)
-            {
-                printf("Caixa: ");
-                scanf("%d", &caixa);
-            }
-            mostrarUmCaixa(&listaCaixas, caixa);
-            caixa = 0;
+            mostrarCaixas(&listaCaixas);
             break;
         default:
             break;

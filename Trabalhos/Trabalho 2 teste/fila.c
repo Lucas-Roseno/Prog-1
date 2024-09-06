@@ -32,7 +32,7 @@ void mostrarFila(filaClientes *fila)
     cliente *pAux = fila->primCliente;
     if (pAux == NULL)
     {
-        printf("\nFila vazia\n\n");
+        printf("Fila vazia\n");
     }
 
     while (pAux != NULL)
@@ -137,6 +137,7 @@ void desenfileirar(listCaixa *listaCaixas, int caixaEscolhido, int impressao)
     pAux->fila->primCliente = clienteAux->prox;
     if (impressao == -1)
     {
+        free(clienteAux);
         return;
     }else
     {
