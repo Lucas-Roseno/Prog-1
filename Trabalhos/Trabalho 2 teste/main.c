@@ -103,6 +103,9 @@ int main()
                 break;
             }
             break;
+        case 4:
+            impressaoDasFilas(&listaCaixas);
+            break;
         case 5:
             mostrarCaixas(&listaCaixas);
             break;

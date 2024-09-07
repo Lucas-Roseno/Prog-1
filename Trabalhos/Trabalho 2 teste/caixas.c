@@ -77,7 +77,6 @@ void mostrarCaixas(listCaixa *listaCaixa)
             printf("fechado\n");
         }
         mostrarFila(pAux->fila);
-        
     }
 }
 
@@ -191,4 +190,28 @@ void mostrarUmCaixa(listCaixa *listaCaixa, int caixaEscolhido)
     }
 
     mostrarFila(pAux->fila);
+}
+
+void impressaoDasFilas(listCaixa *listaCaixas)
+{
+    printf("\n======================================");
+    for (caixa *pAux = listaCaixas->primCaixa; pAux != NULL; pAux = pAux->prox)
+    {
+
+        if (pAux->estado == 1 && pAux->fila->primCliente != NULL)
+        {
+            printf("\nCaixa %d:\n", pAux->numCaixa);
+            for (cliente *clientes = pAux->fila->primCliente; clientes != NULL; clientes = clientes->prox)
+            {
+                printf("\n--------------------------------------");
+                printf("\nNome: %s\n", clientes->nome);
+                printf("CPF: %lld\n", clientes->cpf);
+                printf("Prioridade: %d\n", clientes->prioridade);
+                printf("Número de itens: %d", clientes->nitens);
+
+                printf("\n--------------------------------------");
+            }
+            printf("\n======================================\n");
+        }
+    }
 }

@@ -45,7 +45,7 @@ void mostrarCaixas(listCaixa *listaCaixa);
 void abrirCaixa(listCaixa *listaCaixa, int numCaixa);
 void fecharCaixa(listCaixa *listaCaixa, int numCaixa);
 void mostrarUmCaixa(listCaixa *listaCaixa, int caixaEscolhido);
-
+void impressaoDasFilas(listCaixa *listaCaixas);
 //=============FILA================
 
 void criarFila(filaClientes *fila);
