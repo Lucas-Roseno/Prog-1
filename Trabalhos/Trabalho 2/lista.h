@@ -1,9 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #ifndef LISTA_H
 #define LISTA_H
-#include "clientes.h"
 
 #define TAMn 100
 
+//=============FILA================
+typedef struct Cliente
+{
+    char nome[TAMn];
+    long long cpf;
+    int prioridade;
+    int nitens;
+    struct Cliente *prox;
+} cliente;
+
+typedef struct filaClientes
+{
+    cliente *primCliente;
+} filaClientes;
+
+
+
+//=============CAIXA===============
 typedef struct Caixa
 {
     int numCaixa;
@@ -25,5 +45,16 @@ void mostrarCaixas(listCaixa *listaCaixa);
 void abrirCaixa(listCaixa *listaCaixa, int numCaixa);
 void fecharCaixa(listCaixa *listaCaixa, int numCaixa);
 void mostrarUmCaixa(listCaixa *listaCaixa, int caixaEscolhido);
+void impressaoDasFilas(listCaixa *listaCaixas);
+//=============FILA================
+
+void criarFila(filaClientes *fila);
+void inserirIniFila(listCaixa *lCaixas, char *nome, long long cpf, int prioridade, 
+int nItens, int caixaEscolhido);
+void mostrarFila(filaClientes *fila);
+void inserirOrdFila(listCaixa *lCaixas, char *nome, long long cpf, int prioridade, 
+int nItens, int caixaEscolhido);
+void desenfileirar(listCaixa *listaCaixas, int caixaEscolhido, int impressao);
+//impresao = -1 não imprime os clientes atendidos
 
 #endif
